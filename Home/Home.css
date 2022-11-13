@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+}
+
+#logoBox {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+#logoBox img {
+  width: 1100px;
+  height: auto;
+  margin-left: 3vw;
+}
+
+.homeText {
+  text-align: center;
+  position: absolute;
+  top: 10vh;
+  left: 55vw;
+}
+
+.homeText img {
+  width: 33rem;
+
+  margin-top: 100px;
+  margin-right: 45px;
+}
+/* Adapt path and format depending on your build settings. */
+
+/* .warp__placeholder {
+  position: absolute;
+  color: transparent;
+  font-size: 0.1px;
+} */
+
+/* 각 글씨 덩어리들 위치 잡아준 코드 */
+.warp {
+  display: block;
+  /* position: absolute;
+  top: 10%;
+  left: 50vw; */
+
+  width: 38.75rem;
+  height: 180px;
+  font: 100 180px/1 ultra;
+}
+
+.warp2 {
+  display: block;
+  /* position: absolute;
+  top: 30%;
+  left: 50vw; */
+
+  width: 38.75rem;
+  height: 180px;
+  font: 100 180px/1 ultra;
+}
+
+.warp3 {
+  display: block;
+  /* position: absolute;
+  top: 50%;
+  left: 50vw; */
+
+  width: 38.75rem;
+  height: 180px;
+  font: 100 180px/1 ultra;
+}
+
+[class*="warp__"] {
+  display: block;
+  position: absolute;
+}
+
+/* 글씨별 개별 설정들 (꼬부랑글씨체를 위한 코드들!) */
+.warp__0,
+.warp__00 {
+  transform-origin: 50% 8.687rem;
+  transform: translate(1.01rem, 4.556rem) rotate(-0.238833rad)
+    skewX(-0.238833rad) scaleY(0.9716147123269291);
+}
+
+.warp__1,
+.warp__01 {
+  transform-origin: 50% 8.687rem;
+  transform: translate(10.418rem, 3.872rem) rotate(0.151992rad)
+    skewX(0.151992rad) scaleY(0.9884714356202137);
+}
+
+.warp__2,
+.warp__02 {
+  transform-origin: 50% 8.687rem;
+  transform: translate(18.487rem, 5.154rem) rotate(-0.019903rad)
+    skewX(-0.019903rad) scaleY(0.9998019418336849);
+}
+
+.warp__3,
+.warp__03 {
+  transform-origin: 50% 8.687rem;
+  transform: translate(26.17rem, 3.348rem) rotate(-0.354358rad)
+    skewX(-0.354358rad) scaleY(0.9378694485864443);
+}
+
+/* 글자들 색상 및 폰트웨이트 */
+.warp__0,
+.warp__1,
+.warp__2,
+.warp__3 {
+  color: rgb(255, 175, 0);
+  font-weight: 900;
+
+  text-shadow: 7px 7px 0 rgba(255, 174, 0, 0.578);
+
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, rgb(255, 175, 0), #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3.5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.warp__00,
+.warp__01,
+.warp__02,
+.warp__03 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+
+  text-shadow: 7px 7px 0 rgba(255, 255, 255, 0.578);
+
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
