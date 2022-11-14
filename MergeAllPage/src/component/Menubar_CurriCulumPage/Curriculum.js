@@ -15,7 +15,7 @@ import{
 } from './styledComponent';
 import React from "react";
 import MenuBar from './MenuBar';
-import Header from '../joinFormPage/Header';
+import Header from '../Header/Header';
 
 function Curriculum(){
     return (
@@ -26,11 +26,10 @@ function Curriculum(){
         <TitleBig> 학습 언어 </TitleBig>
         <ImgBox>
             <ImgDiv>
-                <Imgs src="img/html.png"></Imgs>
+                <Imgs src="/img/html.png"></Imgs>
                 <Imgs src="img/css.png"></Imgs>
                 <Imgs src="img/python.png"></Imgs>
                 <Imgs src="img/git.png"></Imgs>
-                
             </ImgDiv>
             <TitleImg>공통</TitleImg>
         </ImgBox>

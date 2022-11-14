@@ -1,12 +1,13 @@
 import React from 'react';
 import './annualPlan.css'
-import Header from '../joinFormPage/Header';
+import Header from '../Header/Header';
 import MenuBar from '../Menubar_CurriCulumPage/MenuBar';
 
 function AnnualPlan() {
     return (
-        <div className="container">
+        <>
             <Header/>
+         <div className="container">
             <MenuBar/>
             {/* <h1>WHAT ABOUT US?</h1> */}
             <hr></hr>
@@ -52,7 +53,8 @@ function AnnualPlan() {
                     </div>
                 {/* <img className="img2" src="https://item.kakaocdn.net/do/47b82cccfb62e78d71b1590e32a57e5e7154249a3890514a43687a85e6b6cc82" /> */}
             </div>
-        </div>
+          </div>
+        </>
     );
 }
 

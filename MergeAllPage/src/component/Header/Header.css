@@ -1,12 +1,9 @@
-.logo{
-    height: 25px;
-    width: 136px;
-    left: 38px;
-    top: 17px;
-    border-radius: 0px;
-    }
-    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+    .headerLogo{
+      height:2vw;
+      margin-left:-10%;
+    }
     body {
       /* font-family: 'Montserrat', sans-serif; */
       /* font-weight: 300; */
@@ -278,4 +275,5 @@
         font-size: 8vh;
       }
     }
+
     

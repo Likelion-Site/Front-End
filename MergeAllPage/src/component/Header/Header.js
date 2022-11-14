@@ -1,12 +1,12 @@
-import header from "./img/likelion.png";
+import header from "./likelion.png";
 import React from 'react';
-import './css/Header.css';
+import './Header.css';
 import { Link } from 'react-router-dom';
 function Header(){
     return(
         <>
         <div id="headerBox" style={{ zIndex: 100 }}>
-          <img src={header} className="headerLogo" alt="React" />
+          <Link to="/"><img src={header} className="headerLogo" alt="React" /></Link>
   
           <input
             class="menu-icon"
@@ -21,7 +21,7 @@ function Header(){
                 <Link to='/'>home</Link>
               </li>
               <li>
-                <Link to="/annualplan">about us</Link>
+                <Link to="/likelion">about us</Link>
               </li>
               <li>
                 <a href="#">activity</a>

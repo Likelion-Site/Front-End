@@ -2,7 +2,7 @@ import "./Home.css";
 import logo from "../joinFormPage/img/logoimg.png";
 import homeUnderImg from "./smulion.png";
 import React from "react";
-import Header from "../joinFormPage/Header";
+import Header from "../Header/Header";
 
 export default function Home() {
   return (

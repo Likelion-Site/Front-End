@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Form.css';
-import Header from './Header';
+import Header from '../Header/Header';
 
 function Form(){
     return(

@@ -26,6 +26,7 @@ export const Menu = styled.div`
 export const NavLinkTo = styled(NavLink)`
     text-decoration: none;
     font-size:24px;
+    white-space:nowrap;
     margin-top: 2%;
     color: white;
     width: 180px;

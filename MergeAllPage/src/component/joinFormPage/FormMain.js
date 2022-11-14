@@ -3,7 +3,7 @@ import React from 'react';
 import './css/FormMain.css';
 import {Link,Route } from "react-router-dom";
 import Click from './Click';
-import Header from './Header.js';
+import Header from '../Header/Header.js';
 
 
 function FormMain(){ 
