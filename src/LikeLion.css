@@ -1,9 +1,4 @@
 
-@import './index.html';
-@import './src/bottom.js';
-@import './src/index.js';
-
-
 body{
     background-color: black;
 }
@@ -28,6 +23,7 @@ body{
 .l_text{
     color: rgb(100, 100, 100);
     padding:4%;
+    margin-top:90%;
 }
 
 .m_img{
@@ -48,21 +44,6 @@ body{
     position:relative;
 }
 
-.mid_text1{
-    color:white;
-    position:relative;
-    margin-top: -16%;
-   
-    width:100%;
-   
-    font-size:8vh;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
-}
-
 .white{
     width: 100%;
 }
@@ -75,10 +56,12 @@ body{
 }
 .logoda{
     margin-top:-50%;
+    text-align: center;
 }
 
 .text_1{
     padding-top: 10%;
+    text-align: center;
 }
 
 .txt1{
@@ -98,4 +81,18 @@ body{
 
 .img_foot{
     width:50%;
+}
+.m_1{
+    color:white;
+    position:relative;
+    margin-top: -102%;
+   
+    width:100%;
+   
+    font-size:8vh;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
 }
