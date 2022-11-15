@@ -10,7 +10,6 @@ function AnnualPlan() {
          <div className="container">
             <MenuBar/>
             {/* <h1>WHAT ABOUT US?</h1> */}
-            <hr></hr>
             <div className="box2">
                 <div className="box__number2">신입 기수 모집</div>
                 <div className="box__title2">
